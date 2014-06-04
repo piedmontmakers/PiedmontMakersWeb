@@ -213,8 +213,8 @@ function et_postinfo_meta( $postinfo, $date_format, $comment_zero, $comment_one,
 	if ( in_array( 'categories', $postinfo ) && 'project' !== get_post_type() )
 		$postinfo_meta .= ' ' . esc_html__('in',$themename) . ' ' . get_the_category_list(', ');
 
-	if ( in_array( 'comments', $postinfo ) )
-		$postinfo_meta .= ' | ' . et_get_comments_popup_link( $comment_zero, $comment_one, $comment_more );
+//	if ( in_array( 'comments', $postinfo ) )
+//		$postinfo_meta .= ' | ' . et_get_comments_popup_link( $comment_zero, $comment_one, $comment_more );
 
 	echo $postinfo_meta;
 }
