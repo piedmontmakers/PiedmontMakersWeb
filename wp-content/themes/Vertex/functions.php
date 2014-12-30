@@ -204,8 +204,8 @@ function et_postinfo_meta( $postinfo, $date_format, $comment_zero, $comment_one,
 	$postinfo_meta = esc_html__('Posted',$themename);
 
 
-	if ( in_array( 'author', $postinfo ) && 'project' !== get_post_type() )
-		$postinfo_meta .= ' ' . esc_html__('By',$themename) . ' ' . et_get_the_author_posts_link();
+//	if ( in_array( 'author', $postinfo ) && 'project' !== get_post_type() )
+//		$postinfo_meta .= ' ' . esc_html__('By',$themename) . ' ' . et_get_the_author_posts_link();
 
 	if ( in_array( 'date', $postinfo ) )
 		$postinfo_meta .= ' ' . esc_html__('on',$themename) . ' ' . get_the_time( $date_format );
