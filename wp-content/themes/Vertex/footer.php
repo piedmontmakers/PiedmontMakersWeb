@@ -14,7 +14,7 @@
 		<div class="container">
 			<?php get_sidebar( 'footer' ); ?>
 
-			<p id="footer-info">&copy; 2014 Piedmont Makers | <a href="http://www.facebook.com/groups/piedmontmakers/">Facebook</a> | <a href="http://www.twitter.com/piedmontmakers">Twitter</a> | <a href="http://github.com/piedmontmakers">GitHub</a></p>
+			<p id="footer-info">&copy; 2015 Piedmont Makers | <a href="http://www.facebook.com/groups/piedmontmakers/">Facebook</a> | <a href="http://www.twitter.com/piedmontmakers">Twitter</a> | <a href="http://github.com/piedmontmakers">GitHub</a></p>
 		</div> <!-- .container -->
 	</footer> <!-- #main-footer -->
 
