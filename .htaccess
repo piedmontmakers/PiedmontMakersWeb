@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+RewriteRule ^/mini-maker-faire$ /school-maker-faire [L,R]
+RewriteRule ^/mini-maker-faire/$ /school-maker-faire/ [L,R]
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
